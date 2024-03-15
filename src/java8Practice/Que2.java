@@ -11,7 +11,7 @@ public class Que2 {
         HashSet<Integer> integerHashSet = new HashSet<>();
 
         integerList.stream()
-                .filter(n-> !integerHashSet.add(n)) .sorted(Comparator.reverseOrder()).distinct()
+                .filter(n-> !integerHashSet.add(n)).sorted(Comparator.reverseOrder()).distinct()
                 .forEach(System.out::println);
     }
 }
